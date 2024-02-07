@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roobert:wght@100;300;400;500;700&display=swap');
+
+.Banner_img{
+    width: 25%;
+}
+
+.Tittles{
+    margin-left: 34%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -5%;
+  font-size: medium;
+  font-family: 'Roobert', sans-serif;
+
+}
+
+.Description{
+    color: gray;
+    font-family: 'Roobert', sans-serif;
+    font-size: small;
+    margin-left: 28%;
+    margin-top: 0%;
+
+}
+
+.Category{
+    color: gray;
+    font-family: 'Roobert', sans-serif;
+    font-size: small;
+    margin-left: 28%;
+    margin-top: -3%;
+}
+
+.Profile_img{
+    border-radius: 50%;
+    margin-left: 27%;
+    margin-top: -13%;
+}
+
+.Tags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+    width: 17%;
+    border: none;
+    margin-left: 80%;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 80%;
+    margin-top: -2%;
+    font-family: 'Roobert', sans-serif;
+    color: gray;
+    margin-left: 27%;
+  
+  
+    
+  }
+
+.CardsOnline{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.CardsOnlineContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (min-width: 768px) {
+
+   body{
+    background-color: blueviolet;
+   }
+
+
+}

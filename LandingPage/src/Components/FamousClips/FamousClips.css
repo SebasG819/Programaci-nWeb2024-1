@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roobert:wght@100;300;400;500;700&display=swap');
+
+.CardsFamous{
+    display: flex;
+    flex-direction: column;
+}
+
+.BannerClips_img{
+    width: 68%;
+  height: 144px;
+}
+
+.ProfileFS_img{
+    border-radius: 50%;
+   margin-top: 2%;
+   
+}
+
+.Tittle{
+    font-family: 'Roobert', sans-serif;
+    margin-left: 12%;
+    margin-top: -10.5%;
+    font-size: larger;
+}
+
+.Name{
+    font-family: 'Roobert', sans-serif;
+    font-size: larger;
+    color: gray;
+    margin-left: 11%;
+    margin-top: -5%;
+}
+
+.Time{
+ 
+ position: absolute;
+ background-color: rgb(128, 128, 128);
+ border-radius: 10%;
+ top: 676px;
+ left: 18px;
+ width: 10%;
+ height: 2%;
+}
+ 
+
+
+.Timetext{
+    color: white;
+    margin-top: 1%;
+    font-family: 'Roobert', sans-serif;
+}
