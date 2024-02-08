@@ -1,8 +1,8 @@
 import React from "react"
-import './CardsOnline.css'
-export function CardsOnline(){
+import './RecomendChanels.css'
+export function RecomendChanels(){
 
-    const CardsOnline = [{
+    const RecomendChanels = [{
 
         tittle: "Bienvenido al nuevo stream",
         imagebanner: "https://sm.ign.com/ign_es/news/v/valorant-e/valorant-episode-7-act-3-new-agent-iso-all-abilities-explain_jycn.jpg",
@@ -33,10 +33,10 @@ export function CardsOnline(){
 ];
 
     return(
-        <section className="CardsOnlineContainer">
+        <section className="CardsRecomendContainer">
             {CardsOnline.map((card) => (
-                <section className="CardsOnline">
-                <h1 className="Tittles">{card.tittle}</h1>
+                <section className="CardsRecomend">
+                <h1 className="Tittle">{card.tittle}</h1>
                 {card.imagebanner && <img src={card.imagebanner} alt="Photo_Banner" className = "Banner_img" />}
                 {card.imageprofile && <img style= {{maxWidth: "6%"}}src={card.imageprofile} alt="Photo_Profile" className = "Profile_img" />}
                 <p className="Description"> {card.description} </p>
@@ -52,21 +52,3 @@ export function CardsOnline(){
         </section> 
     )
 }
-
-// export function CardsOnline(props){
-//     const{tittle, banner_img, profile_img, description, category, tags, } = props
-//     return(
-//         <section className="CardsOnline">
-//             {
-//                 CardsOnline.map((card) => {
-//                     return <Card banner_img={card.banner_img} />
-
-//                 }) 
-//             }
-
-
-//         </section>
-     
-        
-//     )
-// }

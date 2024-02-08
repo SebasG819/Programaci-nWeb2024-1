@@ -7,6 +7,7 @@ import { TittleClips } from "./Components/TittleClips/TittleClips"
 import { CardsFamous } from "./Components/FamousClips/FamousClips"
 import { CategoryTittle } from "./Components/CategoryTittle/CategoryTittle"
 import { CardsLike } from "./Components/CardsLike/CardsLike/"
+import { TittleRecom } from "./Components/TittleRecom/TittleRecom"
 
 
 export default function App(){
@@ -23,6 +24,8 @@ export default function App(){
         <CardsFamous/>
         <CategoryTittle/>
         <CardsLike/>
+        <TittleRecom/>
+        <CardsOnline/>
         
         
        
