@@ -3,6 +3,8 @@ import './CategoryTittle.css'
 export function CategoryTittle(){
     return(
         <main>
+            <br />
+            <br />
             <h1 className="CategoryTittle"> Categorías que sigues </h1>
            
            

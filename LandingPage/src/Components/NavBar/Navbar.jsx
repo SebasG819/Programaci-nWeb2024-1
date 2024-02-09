@@ -14,7 +14,8 @@ export function NavBar(){
     }
     ]
     return(
-       
+        
+        
         
 
             <section className="Navbar">
@@ -34,6 +35,7 @@ export function NavBar(){
                 </div>
 
                  </nav>
+                 
                  
             ))}
             

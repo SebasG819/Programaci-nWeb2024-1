@@ -9,7 +9,8 @@ export function CardsOnline(){
         imageprofile: "https://yt3.googleusercontent.com/On2byUrC-sLMMzRfP5qoNL3DpXkI84FNxW6pHxmYqIexdmgs2AlD7l_rXkBw3BdkccNpEP35=s900-c-k-c0x00ffffff-no-rj",
         description: "Probando el nuevo agente de Valorant",
         category:"Valorant",
-        buttonText:"Español"
+        buttonText:"Español",
+        spectator: "1,2k"
     },
     {
         tittle: "Streamer de calidad",
@@ -17,7 +18,8 @@ export function CardsOnline(){
         imageprofile: "https://yt3.googleusercontent.com/On2byUrC-sLMMzRfP5qoNL3DpXkI84FNxW6pHxmYqIexdmgs2AlD7l_rXkBw3BdkccNpEP35=s900-c-k-c0x00ffffff-no-rj",
         description:"Pokemones con armas",
         category:"Palworld",
-        buttonText:"Español"
+        buttonText:"Español",
+        spectator: "6,2k"
 
     },
     {
@@ -26,7 +28,8 @@ export function CardsOnline(){
         imageprofile: "https://yt3.googleusercontent.com/On2byUrC-sLMMzRfP5qoNL3DpXkI84FNxW6pHxmYqIexdmgs2AlD7l_rXkBw3BdkccNpEP35=s900-c-k-c0x00ffffff-no-rj",
         description: "Fornachos con Perez",
         category:"Fortnite",
-        buttonText:"Español"
+        buttonText:"Español",
+        spectator: "10,2k"
 
     }
 
@@ -38,10 +41,14 @@ export function CardsOnline(){
                 <section className="CardsOnline">
                 <h1 className="Tittles">{card.tittle}</h1>
                 {card.imagebanner && <img src={card.imagebanner} alt="Photo_Banner" className = "Banner_img" />}
-                {card.imageprofile && <img style= {{maxWidth: "6%"}}src={card.imageprofile} alt="Photo_Profile" className = "Profile_img" />}
+                {card.imageprofile && <img style= {{maxWidth: "4%"}}src={card.imageprofile} alt="Photo_Profile" className = "Profile_img" />}
                 <p className="Description"> {card.description} </p>
                 <p className="Category"> {card.category} </p>
+                <div class="CircleCard"></div>
+                <p className='Spectators'> {card.spectator} </p>
                 <button className="Tags"> {card.buttonText} </button>
+               
+                
 
                 </section>
                  

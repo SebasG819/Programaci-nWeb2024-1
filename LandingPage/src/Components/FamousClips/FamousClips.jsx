@@ -33,9 +33,11 @@ export function CardsFamous(){
                     <p className='Timetext'> {card.duration}</p>
                 </section>
                 <section className='Ago'>
-                    <p className='Timetext'> {card.time}</p>
+                    <p className='AgoText'> {card.time}</p>
                 </section>
-
+                <section className='Views'>
+                    <p className='ViewsText'> {card.views}</p>
+                </section>
 
                 </section>
                  
