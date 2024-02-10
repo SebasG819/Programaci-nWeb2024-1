@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roobert:wght@100;300;400;500;700&display=swap');
 
+.CardsOnlineFamous{
+
+  display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 2%;
+}
+
+
 .CardsFamous{
     display: flex;
     flex-direction: column;
 }
 
 .BannerClips_img{
-    width: 68%;
-  height: 144px;
+  height: 101px;
+  width: 187px;
 }
 
 .ProfileFS_img{
@@ -46,7 +55,7 @@
 
 .Timetext{
     color: white;
-  margin-top: -1.5%;
+    margin-top: 3.5%;
   margin-left: 5%;
   font-family: "Arial", "Helvetica", sans-serif;
 }
