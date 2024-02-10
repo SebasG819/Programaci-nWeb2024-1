@@ -1,10 +1,10 @@
 import React from "react";
-import './TittleRecom.css'
-export function TittleRecom(){
+import './ChanelsTittle.css'
+export function ChanelsTittle(){
     return(
         <main>
             <br />
-            <h1 className="TittleRecom"> Canales recomendados para ti </h1>
+            <h1 className="ChanelTittle"> Tus canales  desconectados </h1>
            
            
            
