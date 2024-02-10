@@ -8,7 +8,7 @@ import { CategoryTittle } from "./Components/CategoryTittle/CategoryTittle"
 import { CardsLike } from "./Components/CardsLike/CardsLike/"
 import { TittleRecom } from "./Components/TittleRecom/TittleRecom"
 import { ChanelsTittle } from "./Components/ChanelsTittle/ChanelsTittle"
-
+import { CardsChanels } from "./Components/CardsChanels/CardsChanels"
 
 export default function App(){
     
@@ -27,6 +27,7 @@ export default function App(){
         <TittleRecom/>
         <CardsOnline/>
         <ChanelsTittle/>
+        <CardsChanels/>
         
         
        
