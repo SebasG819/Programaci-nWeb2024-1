@@ -10,6 +10,7 @@ import { TittleRecom } from "./Components/TittleRecom/TittleRecom"
 import { ChanelsTittle } from "./Components/ChanelsTittle/ChanelsTittle"
 import { CardsChanels } from "./Components/CardsChanels/CardsChanels"
 import { NavbarDown } from "./Components/NavBarDown/NavBarDown"
+import { NavbarDesktop } from "./Components/NavbarDesktop/NavbarDesktop"
 export default function App(){
     
     
@@ -29,6 +30,7 @@ export default function App(){
         <ChanelsTittle/>
         <CardsChanels/>
         <NavbarDown/>
+        <NavbarDesktop/>
         
         
        
