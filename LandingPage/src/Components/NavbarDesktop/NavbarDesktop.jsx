@@ -29,8 +29,8 @@ export function NavbarDesktop(){
                 <nav className="NavigationBarDesktop">
     
                 {card.iconlogo && <img src={card.iconlogo} alt="Photo_Logo" className = "photo-logo" />}
-                <h1>{card.followtext}</h1>
-                <h1>{card.exploretext}</h1>
+                <h1 className='text-nav'>{card.followtext}</h1>
+                <h1 className='text-nav'>{card.exploretext}</h1>
                 {card.iconmore && <img src={card.iconmore} alt="Photo_More" className = "icon" />}
                 <div className='searchbar'>
                 <input type={card.inputsearch} className = "input-search" />
@@ -40,7 +40,9 @@ export function NavbarDesktop(){
                 {card.iconmail && <img src={card.iconmail} alt="Mail_Icon" className = "icon" />}
                 {card.iconmessage && <img src={card.iconmessage} alt="Message_Icon" className = "icon" />}
                 {card.iconbits && <img src={card.iconbits} alt="Bits_Icon" className = "icon" />}
+                <div className='button-photo'>
                 <button className="button-live"><img src={card.imagebutton} alt="Batery_Icon" className = "batery-icon"></img> {card.buttonText} </button>
+                </div>
                 {card.profileimg && <img src={card.profileimg} alt="Photo_Profile" className = "profile-navdesk" />}
 
                 

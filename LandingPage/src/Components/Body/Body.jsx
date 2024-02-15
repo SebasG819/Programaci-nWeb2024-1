@@ -5,9 +5,9 @@ export function Body(){
         <main>
             <br />
             <br />
-            <h1> Stories </h1>
+            <h1 className="mobile-text"> Stories </h1>
             <br />
-            <h1>Tus canales en vivo</h1>
+            <h1 className="mobile-text">Tus canales en vivo</h1>
            
            
             

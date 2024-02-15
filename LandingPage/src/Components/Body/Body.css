@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roobert:wght@100;300;400;500;700&display=swap');
-h1{
+.mobile-text{
     font-family: 'Roobert', sans-serif;
   
 }
 
 @media  (min-width: 1024px) {
 
-    h1{
+    .mobile-text{
         font-family: 'Roobert', sans-serif;
         display: none;
       
