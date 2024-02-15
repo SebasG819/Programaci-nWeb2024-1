@@ -1,0 +1,49 @@
+@media  (min-width: 1024px) {
+
+    .NavigationBarDesktop {
+      display: flex;
+      flex-direction: row;
+      margin-top: -6%;
+      width: 100%;
+    }
+
+    .button-live{
+        width: 198px;
+        height: 32px;
+    }
+    .batery-icon{
+        width: 64px;
+        height: 49px;
+    }
+
+    .profile-navdesk{
+    width: 43px;
+    height: 39px;
+    border-radius: 50%;
+
+    }
+
+    .icon{
+        width: 43px;
+        height: 33px;
+
+    }
+
+    .photo-logo{
+        width: 81px;
+    height: 88px;
+    margin-top: -2%;
+    }
+    
+    .searchbar{
+        display: flex;
+        flex-direction: row;
+        width: 15%;
+        height: 25%;
+    }
+
+    .input-search{
+        width: 264px;
+    height: 7%;
+    }
+  }  

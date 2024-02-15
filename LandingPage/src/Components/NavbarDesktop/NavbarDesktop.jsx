@@ -27,22 +27,23 @@ export function NavbarDesktop(){
             {NaviDesk.map((card) => (
                 
                 <nav className="NavigationBarDesktop">
-                <div className="ContainerAllDesktop">
-                {card.iconlogo && <img src={card.iconlogo} alt="Photo_Logo" className = "Photo_Logo" />}
+    
+                {card.iconlogo && <img src={card.iconlogo} alt="Photo_Logo" className = "photo-logo" />}
                 <h1>{card.followtext}</h1>
                 <h1>{card.exploretext}</h1>
-                {card.iconmore && <img src={card.iconmore} alt="Photo_More" className = "IconDesktop" />}
-                <input type={card.inputsearch} />
-                {card.iconsearch && <img src={card.iconsearch} alt="Photo_Search" className = "IconDesktop" />}
-                {card.iconcrown && <img src={card.iconcrown} alt="Crown_Icon" className = "IconDesktop" />}
-                {card.iconmail && <img src={card.iconmail} alt="Mail_Icon" className = "IconDesktop" />}
-                {card.iconmessage && <img src={card.iconmessage} alt="Message_Icon" className = "IconDesktop" />}
-                {card.iconbits && <img src={card.iconbits} alt="Bits_Icon" className = "IconDesktop" />}
-                <button className="ButtonLive"><img src={card.imagebutton} alt="Batery_Icon" className = "BateryIcon"></img> {card.buttonText} </button>
-                {card.profileimg && <img src={card.profileimg} alt="Photo_Profile" className = "Photo_ProfileNavDesktop" />}
+                {card.iconmore && <img src={card.iconmore} alt="Photo_More" className = "icon" />}
+                <div className='searchbar'>
+                <input type={card.inputsearch} className = "input-search" />
+                {card.iconsearch && <img src={card.iconsearch} alt="Photo_Search" className = "icon" />}
+                </div >
+                {card.iconcrown && <img src={card.iconcrown} alt="Crown_Icon" className = "icon" />}
+                {card.iconmail && <img src={card.iconmail} alt="Mail_Icon" className = "icon" />}
+                {card.iconmessage && <img src={card.iconmessage} alt="Message_Icon" className = "icon" />}
+                {card.iconbits && <img src={card.iconbits} alt="Bits_Icon" className = "icon" />}
+                <button className="button-live"><img src={card.imagebutton} alt="Batery_Icon" className = "batery-icon"></img> {card.buttonText} </button>
+                {card.profileimg && <img src={card.profileimg} alt="Photo_Profile" className = "profile-navdesk" />}
 
                 
-                </div>
                 
                  </nav>
                  

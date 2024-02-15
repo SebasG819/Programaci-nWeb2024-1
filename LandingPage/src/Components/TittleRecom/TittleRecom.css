@@ -5,3 +5,14 @@
     font-family: 'Roobert', sans-serif;
     margin-bottom: -1%;
 }
+
+
+@media  (min-width: 1024px) {
+
+    .TittleRecom{
+        font-size: medium;
+        font-family: 'Roobert', sans-serif;
+        margin-bottom: -1%;
+        display: none;
+    }
+  }  

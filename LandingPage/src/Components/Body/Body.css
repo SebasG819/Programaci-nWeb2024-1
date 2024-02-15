@@ -3,3 +3,12 @@ h1{
     font-family: 'Roobert', sans-serif;
   
 }
+
+@media  (min-width: 1024px) {
+
+    h1{
+        font-family: 'Roobert', sans-serif;
+        display: none;
+      
+    }
+  }  

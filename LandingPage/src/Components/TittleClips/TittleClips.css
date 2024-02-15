@@ -4,3 +4,12 @@
     font-size: medium;
     font-family: 'Roobert', sans-serif;
 }
+
+@media  (min-width: 1024px) {
+
+    .TittleClips{
+        font-size: medium;
+        font-family: 'Roobert', sans-serif;
+        display: none;
+    }
+  }  
