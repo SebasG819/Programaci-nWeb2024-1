@@ -32,3 +32,44 @@
     margin-left: -16.5%;
     margin-top: 5%;
 }
+
+@media  (min-width: 1024px) {
+    .CardsChanelsContainer{
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+    
+    
+    .CardsChanels{
+        display: flex;
+        flex-direction: row;
+        display: none;
+    }
+    
+    .TittlesChanels{
+      display: flex;
+      flex-direction: column;
+      font-size: medium;
+      font-family: 'Roobert', sans-serif;
+      margin-top: 0.5%;
+      margin-left: 2.5%;
+      display: none;
+    }
+    
+    
+    .Profile_imgChanel{
+        border-radius: 50%;
+        height: 1%;
+        display: none;
+    }
+    
+    .DescriptionChanel{
+        color: gray;
+        font-family: 'Roobert', sans-serif;
+        margin-left: -16.5%;
+        margin-top: 5%;
+        display: none;
+    }
+   
+  }

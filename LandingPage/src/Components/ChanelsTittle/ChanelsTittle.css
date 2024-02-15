@@ -6,3 +6,15 @@
     margin-top: -5%;
     
 }
+
+@media  (min-width: 1024px) {
+
+   
+.ChanelTittle{
+    font-size: medium;
+    font-family: 'Roobert', sans-serif;
+    margin-top: -5%; 
+    display: none;
+    
+}
+    }

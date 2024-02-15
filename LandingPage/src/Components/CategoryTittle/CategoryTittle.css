@@ -6,3 +6,13 @@
     margin-top: -8%;
     display: flex;
 }
+
+@media  (min-width: 1024px) {
+
+    .CategoryTittle{
+        font-size: medium;
+        font-family: 'Roobert', sans-serif;
+        margin-top: -8%;
+        display: none;
+    }
+    }
