@@ -3,74 +3,88 @@
 @media  (min-width: 1024px) {
 
     .NavigationBarDesktop {
-    display: flex;
-    flex-direction: row;
-   
-    margin-top: -6%;
-    width: 100%;
-    }
-
-    .firspart-nav{
         display: flex;
-        flex-direction: row;
-        gap: 4%;
+        
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -122px;
+       
+        
+       
+       
     }
-
-    .searchbar{
+    
+    .firspart-nav {
         display: flex;
-        flex-direction: row;
-        width: 15%;
-        height: 25%;
+        flex-direction: row; /* Asegura que los elementos se muestren en una fila */
+        margin-right: auto;
+        gap: 20px;
         align-items: center;
+       
     }
-
-    .input-search{
-    width: 264px;
-    height: 7%;
-    }
-
-    .lastpart-nav{
+    
+    .searchbar {
         display: flex;
-        flex-direction: row;
-        gap: 4%;
-        margin-right: -80%;
+        align-items: center;
+        justify-content: center; /* Centra horizontalmente los elementos en .searchbar */
+        gap: 10px;
     }
+    
+    .input-search {
+        width: 200px;
+        height: 30px;
+    }
+    
+    .lastpart-nav {
+        display: flex;
+        gap: 20px;
+        margin-left: auto;
+    }
+  
 
     .text-nav{
         font-family: 'Roobert', sans-serif;
+        display: flex;
+        flex-direction: row;
     }
 
-    .button-live{
-    width: 198px;
-    height: 32px;
+    .button-photo {
+       display: flex;
+       flex-direction: row;
+       gap: 5%;
     }
-
-    .batery-icon{
-    width: 64px;
-    height: 49px;
+    
+    .button-prime {
+        width: 198px;
+        height: 32px;
+        display: flex;
+        align-items: center; /* Centra verticalmente los elementos */
+        justify-content: center; /* Centra horizontalmente los elementos */
+    }
+    
+    .batery-icon {
+        width: 64px;
+        height: 49px;
     }
 
     .profile-navdesk{
     width: 43px;
     height: 39px;
     border-radius: 50%;
+    margin-top: -2%;
+    
 
-    }
-
-    .button-photo{
-        display: flex;
-        flex-direction: row;
     }
 
     .icon{
-    width: 43px;
-    height: 33px;
+        width: 21px;
+        height: 21px;
 
     }
 
     .photo-logo{
-    width: 81px;
-    height: 88px;
+        width: 48px;
+        height: 50px;
     margin-top: -2%;
     }
     
