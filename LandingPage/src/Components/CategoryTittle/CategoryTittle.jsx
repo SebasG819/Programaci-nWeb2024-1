@@ -1,15 +1,12 @@
-import React from "react";
+import React from 'react'
 import './CategoryTittle.css'
-export function CategoryTittle(){
-    return(
-        <main>
-            <br />
-            <br />
-            <h1 className="CategoryTittle"> Categorías que sigues </h1>
-           
-           
-           
-            
-        </main>
-    )
+export function CategoryTittle () {
+  return (
+    <main>
+      <br />
+      <br />
+      <h1 className='CategoryTittle'> Categorías que sigues </h1>
+
+    </main>
+  )
 }

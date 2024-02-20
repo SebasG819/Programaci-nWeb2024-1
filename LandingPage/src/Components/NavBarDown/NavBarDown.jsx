@@ -1,38 +1,24 @@
-import React from "react"
+import React from 'react'
 import './NavBarDown.css'
-export function NavbarDown(){
+import NavDown from '../../constants/navbardown'
 
+export function NavbarDown () {
+  return (
 
-    const NavDown = [{
+    <section className='NavbarDownCont'>
+      {NavDown.map((card, id) => (
+        <nav className='NavigationDown' key={id}>
+          <div className='ContainerIconDown'>
+            {card.iconheart && <img src={card.iconheart} alt='Photo_Profile' className='IconDown' />}
+            {card.iconcompass && <img src={card.iconcompass} alt='Transmition_Icon' className='IconDown' />}
+            {card.iconcopy && <img src={card.iconcopy} alt='Message_Icon' className='IconDown' />}
+            {card.iconsearch && <img src={card.iconsearch} alt='Mail_Icon' className='IconDown' />}
+          </div>
+        </nav>
 
-        iconheart: "https://icones.pro/wp-content/uploads/2021/02/icone-de-coeur-violet-1.png",
-        iconcompass: "https://cdn-icons-png.flaticon.com/512/795/795653.png",
-        iconcopy: "https://cdn.icon-icons.com/icons2/1369/PNG/512/-content-copy_90004.png",
-        iconsearch:"https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png",
-    }
-    ]
-    return(
-        
-        
-        
+      ))}
 
-        <section className="NavbarDownCont">
-        {NavDown.map((card) => (
-            <nav className="NavigationDown">
-             <div className="ContainerIconDown">
-            {card.iconheart && <img src={card.iconheart} alt="Photo_Profile" className = "IconDown" />}
-            {card.iconcompass && <img src={card.iconcompass} alt="Transmition_Icon" className = "IconDown" />}
-            {card.iconcopy && <img src={card.iconcopy} alt="Message_Icon" className = "IconDown" />}
-            {card.iconsearch && <img src={card.iconsearch} alt="Mail_Icon" className = "IconDown" />}
-            </div>
-             </nav>
-             
-             
-        ))}
-        
-      
-        
-    </section> 
+    </section>
 
-)
+  )
 }
