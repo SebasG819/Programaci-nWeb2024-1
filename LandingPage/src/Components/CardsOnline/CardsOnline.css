@@ -92,19 +92,35 @@
 @media  (min-width: 1024px) {
 
   .Banner_img{
-    width: 25%;
-    display: none;
+    width: 21%;
+    margin-left: 20%;
+    margin-top: 0%;
+}
+
+.CardsOnline{
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  width: 85%;
+ 
+
+}
+
+.CardsOnlineContainer{
+  display: flex;
+  flex-direction: row;
+  width: 85%;
 
 }
 
 .Tittles{
-    margin-left: 32%;
+  margin-left: 23.5%;
   display: flex;
   flex-direction: column;
-  margin-bottom: -5.5%;  
+  margin-bottom: -14.5%;
   font-size: medium;
   font-family: 'Roobert', sans-serif;
-  display: none;
+  
 
 
 }
@@ -115,7 +131,7 @@
     font-size: small;
     margin-left: 28%;
     margin-top: 0%;
-    display: none;
+    
 
 
 }
@@ -126,15 +142,16 @@
     font-size: small;
     margin-left: 28%;
     margin-top: -3%;
-    display: none;
+    
 
 }
 
 .Profile_img{
-    border-radius: 50%;
-    margin-left: 27%;
-    margin-top: -13%;
-    display: none;
+  border-radius: 50%;
+  margin-left: 20%;
+  margin-top: 0.8%;
+  width: 3%;
+    
 
 }
 
@@ -153,27 +170,14 @@
     font-family: 'Roobert', sans-serif;
     color: gray;
     margin-left: 27%;
-    display: none;
+    
 
   
   
     
   }
 
-.CardsOnline{
-    display: flex;
-    flex-direction: column;
-    padding: 2%;
-    display: none;
 
-}
-
-.CardsOnlineContainer{
-    display: flex;
-    flex-direction: column;
-    display: none;
-
-}
 
 .Spectators{
     color: rgb(255, 255, 255);
@@ -182,7 +186,7 @@
     margin-left: 5%;
   margin-top: -3%;
   font-weight: bold;
-  display: none;
+ 
 
 }
 
@@ -193,7 +197,7 @@
     border-radius: 50%; 
     margin-top: -6%;
   margin-left: 2%;
-  display: none;
+ 
 }
 
   

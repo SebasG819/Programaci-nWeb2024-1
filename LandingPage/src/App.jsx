@@ -13,25 +13,31 @@ import { NavbarDown } from './Components/NavBarDown/NavBarDown'
 import { NavbarDesktop } from './Components/NavbarDesktop/NavbarDesktop'
 import { FirstSideBar } from './Components/SideBarDesk/SideBarDesk'
 import { CardSide } from './Components/CardsSideBar/CardsSideBar'
+import { RecomTitleDesk } from './Components/RecomTitleDesk/RecomTitleDesk'
+import { Carouselogic } from './Components/Carousel/Carousel'
 export default function App () {
   return (
     <>
 
       <NavBar />
       <Body />
+      <NavbarDesktop />
+      <FirstSideBar />
+
+      <CardSide />
+      <RecomTitleDesk />
+      <CardSide />
+      <Carouselogic />
       <CardsOnline />
       <TittleClips />
       <CardsFamous />
       <CategoryTittle />
       <CardsLike />
       <TittleRecom />
-      <CardsOnline />
+
       <ChanelsTittle />
       <CardsChanels />
       <NavbarDown />
-      <NavbarDesktop />
-      <FirstSideBar />
-      <CardSide />
 
     </>
   )
