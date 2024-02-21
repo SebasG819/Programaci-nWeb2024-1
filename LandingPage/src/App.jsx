@@ -21,9 +21,9 @@ export default function App () {
 
       <NavBar />
       <Body />
+
       <NavbarDesktop />
       <FirstSideBar />
-
       <CardSide />
       <RecomTitleDesk />
       <CardSide />

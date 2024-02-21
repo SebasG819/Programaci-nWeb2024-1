@@ -7,7 +7,9 @@
         
     justify-content: space-between;
     align-items: center;
-    margin-top: -122px;
+    margin-top: -3%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
        
         
        
@@ -16,7 +18,7 @@
     
     .firspart-nav {
         display: flex;
-        flex-direction: row; /* Asegura que los elementos se muestren en una fila */
+        flex-direction: row; 
         margin-right: auto;
         gap: 20px;
         align-items: center;
