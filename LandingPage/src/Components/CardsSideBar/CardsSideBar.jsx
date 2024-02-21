@@ -12,9 +12,11 @@ export function CardSide () {
           <section className='text-card'>
             <h2 className='title-side'>{card.tittle}</h2>
             <h1 className='description-side'> {card.description} </h1>
+            <section className='view-circle-sec'>
+              <div className='circle-view' />
+              <p className='views-side'> {card.views} </p>
+            </section>
           </section>
-          <div className='circle' />
-          <p className='views-side'> {card.views} </p>
 
         </section>
       ))}

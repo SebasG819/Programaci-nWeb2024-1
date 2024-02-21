@@ -29,8 +29,8 @@
 .text-card{
     display: flex;
     flex-direction: column;
-    margin-top: -6%;
-  margin-left: 6%;
+    margin-top: -26%;
+    margin-left: 23%;
 }
 
 .title-side{
@@ -51,9 +51,22 @@
     margin-top: 3%;
 }
 
-.circle {
-    width: 50px; /* Cambia el tamaño según tus necesidades */
-    height: 50px; /* Cambia el tamaño según tus necesidades */
-    background-color: #FF5733; /* Cambia el color según tus necesidades */
-    border-radius: 50%; /* Esto hace que el elemento tenga forma de círculo */
+.circle-view {
+  width: 11px;
+  height: 10px;
+    background-color: #ff0000; 
+    border-radius: 50%; 
+  }
+
+  .view-circle-sec{
+    display: flex;
+    align-items: last baseline;
+    flex-direction: row;
+    margin-top: -57%;
+    margin-left: 116%;
+    width: 74%;
+  }
+
+  .containers-card{
+    width: 20%;
   }
