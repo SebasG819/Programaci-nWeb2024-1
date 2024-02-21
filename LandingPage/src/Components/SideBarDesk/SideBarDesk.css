@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roobert:wght@100;300;400;500;700&display=swap');
+
+.first-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 13%;
+}
+
+.side-firts-text{
+    font-family: 'Roobert', sans-serif;
+    font-size: larger;
+}
+
+.side-second-text{
+    font-family: 'Roobert', sans-serif;
+    font-size: medium;
+   
+}
+
+.button-icon{
+    border: none;
+    background-color: #f0f8ff00;
+    margin-left: 51%;
+}
+
+.icon-button{
+    width: 20px;
+}
+
+.second-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 26%;
+}
+
+.sec-icon{
+    width: 33px;
+  height: 33px;
+  margin-left: 6%;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roobert:wght@100;300;400;500;700&display=swap');
+
+
+@font-face {
+    font-family: 'Vayu Sans Semi Bold';
+    src: local('Vayu Sans Semi Bold'), url('C:\Users\Usuario\Downloads\VayuSans-SemiBold.zip') format('woff');
+    
+  }
+
+  .sec-icon {
+    width: 18px;
+  height: 25px;
+    margin-left: 8%;
+  }
+
+.profile-img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.cards-side{
+    display: flex;
+    flex-direction: row;
+    width: 13%;
+  height: 15%;
+}
+
+.text-card{
+    display: flex;
+    flex-direction: column;
+    margin-top: -6%;
+  margin-left: 6%;
+}
+
+.title-side{
+    font-family: 'Roobert', sans-serif;
+    font-size: medium;
+}
+
+.description-side{
+    
+    margin-top: -15%;
+    color: grey;
+    font-family: 'Vayu Sans Semi Bold';
+}
+
+.views-side{
+    font-family: 'Roobert', sans-serif;
+    margin-left: 18%;
+    margin-top: 3%;
+}
+
+.circle {
+    width: 50px; /* Cambia el tamaño según tus necesidades */
+    height: 50px; /* Cambia el tamaño según tus necesidades */
+    background-color: #FF5733; /* Cambia el color según tus necesidades */
+    border-radius: 50%; /* Esto hace que el elemento tenga forma de círculo */
+  }
