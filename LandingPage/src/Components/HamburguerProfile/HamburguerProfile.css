@@ -40,9 +40,12 @@
             color: black;
             border-radius: 3px;
             text-align: start;
-
-        
         
         }
-    }
+        .hambu-button-profi:hover {
+            background-color: #878787; 
+            cursor: pointer; 
+          }
+        }
+    
    

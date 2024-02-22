@@ -12,9 +12,8 @@ export function NavbarDesktop () {
     setShowMenu(!showMenu)
   }
 
-  const handleClick2 = () => {
+  const handleClick2 = (event) => {
     setShowMenu2(!showMenu2)
-    setShowMenu(false)
   }
 
   return (
@@ -48,7 +47,7 @@ export function NavbarDesktop () {
               </button>
               {card.profileimg && <a onClick={handleClick2}> <img src={card.profileimg} alt='Photo_Profile' className='profile-navdesk' /></a>}
               <section>
-                {!showMenu ? null : <HamburguerProfi />}
+                {!showMenu2 ? null : <HamburguerProfi />}
               </section>
             </div>
 
