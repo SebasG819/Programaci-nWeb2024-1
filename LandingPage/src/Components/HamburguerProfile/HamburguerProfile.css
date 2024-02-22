@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roobert:wght@100;300;400;500;700&display=swap');
+
+@media  (min-width: 1024px) {
+
+
+    .hambur-profi-sec{
+        display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: -16.9%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 16%;
+    margin-top: 3%;
+    z-index: 10;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-hambu{
+        width: 50px;
+    border-radius: 50%;
+    margin-left: 7%;
+    margin-top: 5%;
+    }
+
+    .hambu-name{
+        font-family: 'Roobert', sans-serif;
+    font-size: unset;
+    margin-left: 30%;
+    margin-top: -13%;
+
+    }
+    .hambu-button-profi{
+        
+            width: 83%;
+            margin-left: 8%;
+            margin-bottom: 3%;
+            background-color: transparent; 
+            border: none; 
+            color: black;
+            border-radius: 3px;
+            text-align: start;
+
+        
+        
+        }
+    }
+   

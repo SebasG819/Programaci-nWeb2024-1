@@ -2,12 +2,19 @@ import React, { useState } from 'react'
 import './NavbarDesktop.css'
 import NaviDesk from '../../constants/navbardesktop'
 import HamburguerOne from '../HamburguerOne/HamburguerOne'
+import HamburguerProfi from '../HamburguerProfile/HamburguerProfile'
 
 export function NavbarDesktop () {
   const [showMenu, setShowMenu] = useState(false)
+  const [showMenu2, setShowMenu2] = useState(false)
 
   const handleClick = (event) => {
     setShowMenu(!showMenu)
+  }
+
+  const handleClick2 = () => {
+    setShowMenu2(!showMenu2)
+    setShowMenu(false)
   }
 
   return (
@@ -39,7 +46,10 @@ export function NavbarDesktop () {
                 <img src={card.imageprime} alt='Batery_Icon' className='batery-icon' />
                 {card.buttonText}
               </button>
-              {card.profileimg && <img src={card.profileimg} alt='Photo_Profile' className='profile-navdesk' />}
+              {card.profileimg && <a onClick={handleClick2}> <img src={card.profileimg} alt='Photo_Profile' className='profile-navdesk' /></a>}
+              <section>
+                {!showMenu ? null : <HamburguerProfi />}
+              </section>
             </div>
 
           </div>
