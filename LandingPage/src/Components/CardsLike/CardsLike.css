@@ -64,77 +64,19 @@
 
   
 .CardsOnlineLike{
+  
   display: flex;
   flex-direction: row;
   overflow-x: auto;
   gap: 2%;
-  display: none;
+  margin-left: 18%;
+  margin-top: 3%;
+  
 
   
 }
 
-.CardsLike{
-  display: flex;
-  flex-direction: column;
-  display: none;
 
-}
-
-.Circleandviews{
-  display: flex;
-  flex-direction: row;
-  display: none;
-
-}
-
-.BannerLike_img{
-  height: 203px;
-  width: 134px;
-  display: none;
-
-}
-::-webkit-scrollbar {
-  width: 5px; 
-  height: 5px;
-  background-color: #333; 
-}
-
-
-::-webkit-scrollbar-thumb {
-  background-color: #ff0000; 
-  border-radius: 5px; 
-
-}
-
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: #ff3333; 
-}
-
-          
-.TittleLike{
-  font-family: 'Roobert', sans-serif;
-  display: none;
-
-}
-.circle {
-  width: 9px;
-  height: 9px;
-  background-color: #ff0000; 
-  border-radius: 50%; 
-  display: none;
-
-  
-
-}
-
-.ViewsLike{
-  color: gray;
-  font-family: "Arial", "Helvetica", sans-serif;
-  margin-top: -4%;
-  margin-left: 4%;
-  display: none;
-}
   
  
 }

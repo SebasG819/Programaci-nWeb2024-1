@@ -2,7 +2,7 @@ const Cardslike = [{
 
   id: crypto.randomUUID(),
   imagebanner: 'https://www.callofduty.com/content/dam/atvi/callofduty/legacy/blackops3/landing-digital/bo3-landig-bo3-boxart.jpg',
-  tittle: 'Call of Duty: Black Ops 3',
+  tittle: 'COD: Black Ops 3',
   views: '40,5 k'
 
 },
@@ -29,7 +29,7 @@ const Cardslike = [{
 
   id: crypto.randomUUID(),
   imagebanner: 'https://www.callofduty.com/content/dam/atvi/callofduty/legacy/blackops3/landing-digital/bo3-landig-bo3-boxart.jpg',
-  tittle: 'Call of Duty: Black Ops 3',
+  tittle: 'COD: Black Ops 3',
   views: '40,5 k'
 
 },
@@ -37,7 +37,7 @@ const Cardslike = [{
 
   id: crypto.randomUUID(),
   imagebanner: 'https://www.callofduty.com/content/dam/atvi/callofduty/legacy/blackops3/landing-digital/bo3-landig-bo3-boxart.jpg',
-  tittle: 'Call of Duty: Black Ops 3',
+  tittle: 'COD: Black Ops 3',
   views: '40,5 k'
 
 }
