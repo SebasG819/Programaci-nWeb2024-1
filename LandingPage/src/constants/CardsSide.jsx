@@ -19,6 +19,27 @@ const Cardside = [{
   tittle: 'Mixwell',
   description: 'Conversando',
   views: '800'
+},
+{
+  id: crypto.randomUUID(),
+  imgprofile: 'https://static1-es.millenium.gg/articles/5/53/33/5/@/296300-mixwell-team-heretics-article_m-1.jpg',
+  tittle: 'Mixwell',
+  description: 'Conversando',
+  views: '800'
+},
+{
+  id: crypto.randomUUID(),
+  imgprofile: 'https://static1-es.millenium.gg/articles/5/53/33/5/@/296300-mixwell-team-heretics-article_m-1.jpg',
+  tittle: 'Mixwell',
+  description: 'Conversando',
+  views: '800'
+},
+{
+  id: crypto.randomUUID(),
+  imgprofile: 'https://static1-es.millenium.gg/articles/5/53/33/5/@/296300-mixwell-team-heretics-article_m-1.jpg',
+  tittle: 'Mixwell',
+  description: 'Conversando',
+  views: '800'
 }
 ]
 
