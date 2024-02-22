@@ -1,4 +1,5 @@
 import React from 'react'
+import './style.css'
 import { NavBar } from './Components/NavBar/Navbar'
 import { Body } from './Components/Body/Body'
 import { CardsOnline } from './Components/CardsOnline/CardsOnline'
@@ -15,6 +16,7 @@ import { FirstSideBar } from './Components/SideBarDesk/SideBarDesk'
 import { CardSide } from './Components/CardsSideBar/CardsSideBar'
 import { RecomTitleDesk } from './Components/RecomTitleDesk/RecomTitleDesk'
 import { Carouselogic } from './Components/Carousel/Carousel'
+import { TittleDeskChan } from './Components/TitleChanelsDesk/TitleChanelsDesk'
 export default function App () {
   return (
     <>
@@ -27,8 +29,11 @@ export default function App () {
       <CardSide />
       <RecomTitleDesk />
       <CardSide />
+
       <Carouselogic />
+      <TittleDeskChan />
       <CardsOnline />
+
       <TittleClips />
       <CardsFamous />
       <CategoryTittle />

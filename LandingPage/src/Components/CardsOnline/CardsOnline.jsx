@@ -8,7 +8,7 @@ export function CardsOnline () {
         <section className='CardsOnline' key={id}>
           <h1 className='Tittles'>{card.tittle}</h1>
           {card.imagebanner && <img src={card.imagebanner} alt='Photo_Banner' className='Banner_img' />}
-          {card.imageprofile && <img style={{ maxWidth: '4%' }} src={card.imageprofile} alt='Photo_Profile' className='Profile_img' />}
+          {card.imageprofile && <img style={{ maxWidth: '20%' }} src={card.imageprofile} alt='Photo_Profile' className='Profile_img' />}
           <p className='Description'> {card.description} </p>
           <p className='Category'> {card.category} </p>
           <div class='CircleCard' />
