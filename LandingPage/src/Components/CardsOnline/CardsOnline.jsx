@@ -14,7 +14,6 @@ export function CardsOnline () {
           <div class='CircleCard' />
           <p className='Spectators'> {card.spectator} </p>
           <button className='Tags'> {card.buttonText} </button>
-
         </section>
 
       ))}

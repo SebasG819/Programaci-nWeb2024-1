@@ -17,22 +17,29 @@ import { CardSide } from './Components/CardsSideBar/CardsSideBar'
 import { RecomTitleDesk } from './Components/RecomTitleDesk/RecomTitleDesk'
 import { Carouselogic } from './Components/Carousel/Carousel'
 import { TittleDeskChan } from './Components/TitleChanelsDesk/TitleChanelsDesk'
+import { TittleRecomChan } from './Components/ChanelRecomendOf/ChanelRecomendOf'
+import { TittleCategoDesk } from './Components/CategoryDesk/CategoryDesk'
 export default function App () {
   return (
     <>
 
       <NavBar />
       <Body />
+      <section className='side-bar-com'>
+        <NavbarDesktop />
+        <FirstSideBar />
+        <CardSide />
 
-      <NavbarDesktop />
-      <FirstSideBar />
-      <CardSide />
-      <RecomTitleDesk />
-      <CardSide />
+        <RecomTitleDesk />
+        <CardSide />
+      </section>
 
       <Carouselogic />
       <TittleDeskChan />
       <CardsOnline />
+      <TittleRecomChan />
+      <CardsOnline />
+      <TittleCategoDesk />
 
       <TittleClips />
       <CardsFamous />

@@ -30,8 +30,8 @@
 .text-card{
     display: flex;
     flex-direction: column;
-    margin-top: -26%;
-    margin-left: 23%;
+    margin-top: -225%;
+  margin-left: 73%;
 }
 
 .title-side{
@@ -63,9 +63,9 @@
     display: flex;
     align-items: last baseline;
     flex-direction: row;
-    margin-top: -57%;
+    margin-top: -62%;
     margin-left: 116%;
-    width: 74%;
+    width: 108%;
   }
 
   .containers-card{

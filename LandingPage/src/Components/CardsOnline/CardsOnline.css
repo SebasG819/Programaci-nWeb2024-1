@@ -100,11 +100,11 @@
 
 .CardsOnline{
   display: flex;
-  flex-direction: column;
-  padding: 3%;
-  width: 15%;
-  margin-top: -5.5%;
-  margin-left: 5%;
+    flex-direction: column;
+    padding: 1%;
+    width: 13%;
+    margin-top: 3.5%;
+    margin-left: 10%;
  
 
 }
@@ -113,19 +113,19 @@
   display: flex;
   flex-direction: row;
  
+ 
 
 }
 
 .Tittles{
-  margin-left: 10.3%;
+  margin-left: 8.9%;
     display: flex;
     flex-direction: column;
-   
     font-size: medium;
     font-family: 'Roobert', sans-serif;
-    margin-top: 262px;
+    margin-top: 226px;
     position: absolute;
-  display: block;
+    display: block;
 
 
 }
