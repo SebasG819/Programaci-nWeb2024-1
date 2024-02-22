@@ -1,7 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './NavbarDesktop.css'
 import NaviDesk from '../../constants/navbardesktop'
+import HamburguerOne from '../HamburguerOne/HamburguerOne'
+
 export function NavbarDesktop () {
+  const [showMenu, setShowMenu] = useState(false)
+
+  const handleClick = (event) => {
+    setShowMenu(!showMenu)
+  }
+
   return (
 
     <section className='NavbarDesktop'>
@@ -12,8 +20,11 @@ export function NavbarDesktop () {
             {card.iconlogo && <img src={card.iconlogo} alt='Photo_Logo' className='photo-logo' />}
             <h1 className='text-nav'>{card.followtext}</h1>
             <h1 className='text-nav'>{card.exploretext}</h1>
-            {card.iconmore && <img src={card.iconmore} alt='Photo_More' className='icon' />}
+            {card.iconmore && <button onClick={handleClick} className='icon-more'><img src={card.iconmore} alt='Photo_More' className='icon' /></button>}
           </div>
+          <section>
+            {!showMenu ? null : <HamburguerOne />}
+          </section>
           <div className='searchbar'>
             <input type={card.inputsearch} className='input-search' />
             {card.iconsearch && <img src={card.iconsearch} alt='Photo_Search' className='icon' />}
