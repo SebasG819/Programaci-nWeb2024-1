@@ -6,7 +6,9 @@
     margin-top: 2%;
   position: absolute;
   font-family: 'Roobert', sans-serif;
+  z-index: -1;
   color: black
+  
 }
 
   

@@ -18,6 +18,17 @@ const Carousel = [{
   spectator: '895 espectadores',
   buttonText: 'Español',
   description: 'Un streamer talentoso de Fortnite que deslumbra a su audiencia con su destreza en el juego y su carisma. Con jugadas impresionantes y un estilo de juego emocionante, mantiene a sus espectadores entretenidos y ansiosos por más acción en cada partida.'
-}]
+}, {
+
+  id: crypto.randomUUID(),
+  tittle: 'Perezzoso',
+  imagebanner: 'https://i.ytimg.com/vi/p-oysGmz5Ac/maxresdefault.jpg',
+  imageprofile: 'https://imagekit.androidphoria.com/wp-content/uploads/meme-de-belligol-animal-uniforme-real-madrid.jpg',
+  category: 'FIFA',
+  spectator: '55k espectadores',
+  buttonText: 'Español',
+  description: 'Disfruta de partidos emocionantes y jugadas espectaculares en mi canal de FIFA. Únete para vivir la pasión del fútbol virtual en cada stream.'
+}
+]
 
 export default Carousel
