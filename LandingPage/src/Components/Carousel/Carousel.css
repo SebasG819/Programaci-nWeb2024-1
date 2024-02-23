@@ -1,6 +1,100 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roobert:wght@100;300;400;500;700&display=swap');
-@media only screen and (min-width:1024px) {
+
+
+@media (max-width: 767px) {
+    .LeftArrow{
+        width: 20px;
+        position: absolute;
+        top: 237px;
+        left: 274px;
+        display: none;
+    }
+
+    .RightArrow{
+        width: 20px;
+        position: absolute;
+        right: 63px;
+        top: 237px;
+        display: none;
+    }
+    
+    .cards-carousel{
+        display: flex;
+        flex-direction: row;
+        display: none;
+        
+    }
+
+    .banner-caro{
+        width: 580px;
+        margin-top: 51px;
+        margin-left: 570px;
+        height: 320px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-caro{
+    border-radius: 50%;
+    margin-top: 6%;
+    margin-left: 4%;
+}
+
+.caro-info{
+    display: flex;
+    flex-direction: column;
+    width: 13%;
+    margin-top: 2.99%;
+    margin-left: 0%;
+    background-color: rgb(255, 255, 255);
+    height: 321px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.title-caro{
+    color: #6624c9;
+    margin-left: 29%;
+    margin-top: -17%;
+    font-family: 'Roobert', sans-serif;
+}
+
+.catego-caro{
+    color: #6624c9;
+    margin-left: 29%;
+    font-family: 'Roobert', sans-serif;
+    margin-top: 1%;
+}
+
+.spec-caro{
+    font-family: 'Roobert', sans-serif;
+    margin-top: -3%;
+    margin-left: 29%;
+}
+
+.tags-caro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 31%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Roobert', sans-serif;
+    color: gray;
+    margin-left: 2%;
+
+  }
+  .descri-caro{
+    font-family: 'Roobert', sans-serif;
+    margin-left: 2%;
+
+  }
+}
+
+
+
+
+@media  (min-width: 1024px) {
 
   
     .LeftArrow{

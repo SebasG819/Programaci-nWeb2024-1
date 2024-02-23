@@ -7,6 +7,32 @@
     
   }
 
+  @media (max-width: 767px) {
+    .containers-card{
+      width: 20%;
+      display: none;
+     
+    }
+    .sec-icon {
+      width: 18px;
+    height: 25px;
+      margin-left: 8%;
+      display: none;
+    }
+    .cards-side{
+      display: flex;
+      flex-direction: row;
+      width: 13%;
+    height: 15%;
+    margin-top: 2%;
+    display: none;
+    
+  }
+  }
+
+  @media  (min-width: 1024px) {
+
+
   .sec-icon {
     width: 18px;
   height: 25px;
@@ -25,6 +51,7 @@
     width: 13%;
   height: 15%;
   margin-top: 2%;
+  
 }
 
 .text-card{
@@ -70,4 +97,7 @@
 
   .containers-card{
     width: 20%;
+   
   }
+
+}
