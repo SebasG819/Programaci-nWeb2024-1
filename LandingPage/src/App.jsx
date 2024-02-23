@@ -38,6 +38,7 @@ export default function App () {
       <TittleDeskChan />
       <CardsOnline />
       <TittleRecomChan />
+      <TittleRecom />
       <CardsOnline />
       <TittleCategoDesk />
 
@@ -45,8 +46,6 @@ export default function App () {
       <CardsFamous />
       <CategoryTittle />
       <CardsLike />
-      <TittleRecom />
-
       <ChanelsTittle />
       <CardsChanels />
       <NavbarDown />
