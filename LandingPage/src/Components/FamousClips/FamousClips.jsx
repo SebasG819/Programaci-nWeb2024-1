@@ -12,15 +12,6 @@ export function CardsFamous () {
           {card.imageprofile && <img style={{ maxWidth: '10%' }} src={card.imageprofile} alt='Photo_Profile' className='ProfileFS_img' />}
           <h1 className='Tittle'>{card.tittle}</h1>
           <h2 className='Name'> {card.name} </h2>
-          <section className='Time'>
-            <p className='Timetext'> {card.duration}</p>
-          </section>
-          <section className='Ago'>
-            <p className='AgoText'> {card.time}</p>
-          </section>
-          <section className='Views'>
-            <p className='ViewsText'> {card.views}</p>
-          </section>
 
         </section>
 

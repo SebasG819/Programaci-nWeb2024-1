@@ -40,65 +40,7 @@
     margin-top: -5%;
 }
 
-.Time{
-    position: absolute;
-    background-color: rgb(128, 128, 128);
-    border-radius: 6%;
-    top: 587px;
-    left: 17px;
-    width: 11%;
-    height: 2%;
-    border: none;
-}
- 
 
-
-.Timetext{
-    color: white;
-    margin-top: 3.5%;
-  margin-left: 5%;
-  font-family: "Arial", "Helvetica", sans-serif;
-}
-
-
-.Ago{
-    background-color: #232222;
-  position: absolute;
-  width: 21%;
-  height: 2%;
-  top: 695px;
-  border-radius: 6%;
-  left: 187px;
-}
-
-.AgoText{
-    color: white;
- font-family: "Arial", "Helvetica", sans-serif;
- margin-top: 1%;
-  margin-left: 2%;
-  
-}
-
-.Views{
-
-    background-color: #232222;
-  position: absolute;
-  width: 21%;
-  height: 2%;
-  top: 696px;
-  border-radius: 6%;
-  left: 15px;
-      
-    
-}
-
-.ViewsText{
-
-    color: white;
-    font-family: "Arial", "Helvetica", sans-serif;
-    margin-top: 1%;
-    margin-left: 10%;
-}
 
 @media  (min-width: 1024px) {
 

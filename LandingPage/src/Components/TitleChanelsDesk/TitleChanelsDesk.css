@@ -1,4 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roobert:wght@100;300;400;500;700&display=swap');
+
+@media  (max-width: 767px) {
+  .title-desk{
+    margin-left: 17%;
+    margin-top: 2%;
+  position: absolute;
+  font-family: 'Roobert', sans-serif;
+  z-index: -1;
+  color: black;
+  display: none;
+  
+  
+}
+}
+
 @media  (min-width: 1024px) {
 
 .title-desk{

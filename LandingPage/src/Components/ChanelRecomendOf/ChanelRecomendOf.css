@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roobert:wght@100;300;400;500;700&display=swap');
 
+
+@media (max-width: 767px) {
+  .recom-desk{
+    margin-left: 17%;
+  position: absolute;
+  margin-top: 1.5%;
+  font-family: 'Roobert', sans-serif;
+  z-index: -1;
+  color: black;
+  display: none;
+  
+  
+}}
+
 @media  (min-width: 1024px) {
 
 .recom-desk{
@@ -8,7 +22,7 @@
   margin-top: 1.5%;
   font-family: 'Roobert', sans-serif;
   z-index: -1;
-  color: black
+  color: black;
   
   
 }
