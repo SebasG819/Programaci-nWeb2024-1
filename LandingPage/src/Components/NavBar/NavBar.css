@@ -5,11 +5,13 @@
     flex-direction: row;
     margin-top: -3%;
     position: fixed;
-    background-color: #80808033;
+    background-color: #808080;
     filter: none;
     align-items: center;
     height: 7%;
     border-radius: 8px;
+    margin-left: -11px;
+   
   }
 .ContainerIcon{
   display: flex;
@@ -33,6 +35,7 @@
   .Photo_ProfileNav{
     width: 18%;
     border-radius: 63%;
+    margin-left: 13px;
     
   }
   .Share_Screen{
