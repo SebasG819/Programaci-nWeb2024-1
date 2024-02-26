@@ -25,7 +25,7 @@ export const Body = () => {
             selectRandomVideo("fail");
         } else if (type === "reset") {
             setCurrentCounter(0);
-            setRandomVideo(null);
+            setRandomVideo(null)
         }
     };
 
