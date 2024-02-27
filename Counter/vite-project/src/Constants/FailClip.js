@@ -1,4 +1,4 @@
-import { v4 as uuidv4 } from 'uuid';
+
 
 import video6 from "../Clips counter/video6.mp4"
 import video7 from "../Clips counter/video7.mp4"
@@ -9,23 +9,23 @@ import video10 from "../Clips counter/video10.mp4"
 
 export const fail = [
     {
-        id: uuidv4(),
+        id: crypto.randomUUID(),
         clip: video6
     },
     {
-        id: uuidv4(),
+        id: crypto.randomUUID(),
         clip: video7
     },
     {
-        id: uuidv4(),
+        id:crypto.randomUUID(),
         clip: video8
     },
     {
-        id: uuidv4(),
+        id: crypto.randomUUID(),
         clip: video9
     },
     {
-        id: uuidv4(),
+        id: crypto.randomUUID(),
         clip: video10
     }, 
 ]
