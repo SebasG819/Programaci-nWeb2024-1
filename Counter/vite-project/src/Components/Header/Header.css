@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+.title{
+
+    font-family: "Anta", sans-serif;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    font-size: 30px;
+}

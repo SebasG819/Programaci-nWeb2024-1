@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "./Body.css";
+import "./Body.css"
 
+import ImageTv from "../../Constants/ImageTv.png"
 import { Buton } from "../Button/Button";
 import { Counter } from "../Counter/Counter";
 import { Win } from "../../Constants/WinnerClip";
@@ -48,11 +49,15 @@ export const Body = () => {
     return (
         <section className="container">
             <section className="show-video">
+            <img src={ImageTv} className='background-image' alt="Road" />
                 {randomVideo && (
+                    <div>
+                         
                     <video id="random-video" width="320" height="240" controls>
                         <source src={randomVideo} type="video/mp4" />
                         Tu navegador no soporta el elemento de video.
                     </video>
+                    </div>
                 )}
             </section>
             <section className="teams">
@@ -61,9 +66,16 @@ export const Body = () => {
                         <Counter count={currentCounter} />
                     </section>
                     <section className="buttons-div">
-                        <Buton title="-" type="subtract" onClick={() => changeCounter("subtract")} />
-                        <Buton title="Reset" type="reset" onClick={() => changeCounter("reset")} />
-                        <Buton title="+" type="add" onClick={() => changeCounter("add")} />
+                        <Buton clas="sub-btn"  title="-" type="subtract" onClick={() => changeCounter("subtract")}>
+                            Worst shot
+                        </Buton>
+                        <Buton clas="res-btn" title="Reset" type="reset" onClick={() => changeCounter("reset")}>
+                            Refresh
+                        </Buton>   
+                        <Buton clas="add-btn" title="+" type="add" onClick={() => changeCounter("add")} >
+                            Amaizing shot
+                        </Buton>
+
                     </section>
                 </section>
             </section>

@@ -1,0 +1,151 @@
+
+body {
+    background-image: url('https://img.freepik.com/free-photo/empty-dark-room-modern-futuristic-sci-fi-background-3d-illustration_35913-2349.jpg?t=st=1709008302~exp=1709011902~hmac=3fbc34a06ce5a8dc6570eb8ee7509f05183b38c44404785ec0062164e2aaae10&w=1800');
+    background-size: cover; 
+    background-position: center; 
+}  
+
+
+
+.sub-btn {
+    width: 150px;
+    height: 60px;
+    border: 3px solid #ff0000;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .sub-btn:hover {
+    background: #ff0000;
+    color: white;
+    font-size: 1.5em;
+  }
+
+  .add-btn {
+    width: 150px;
+    height: 60px;
+    border: 3px solid #0c4214;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .add-btn:hover {
+    background:#0c4214;
+    color: white;
+    font-size: 1.5em;
+  }
+
+  
+  
+  .res-btn {
+    --color: #363636;
+    font-family: inherit;
+    display: inline-block;
+    width: 6em;
+    height: 2.6em;
+    line-height: 2.5em;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 17px;
+    z-index: 1;
+    color: var(--color);
+    border: 2px solid var(--color);
+    border-radius: 6px;
+    position: relative;
+  }
+  
+  .res-btn::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+  .res-btn:hover {
+    color: white;
+  }
+  
+  .res-btn:before {
+    top: 100%;
+    left: 100%;
+    transition: 0.3s all;
+  }
+  
+  .res-btn:hover::before {
+    top: -30px;
+    left: -30px;
+  }
+
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.show-video {
+    margin-bottom: 20px;
+}
+
+.teams {
+    display: flex;
+    justify-content: center;
+}
+
+.team-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 684px;
+}
+
+.info-team {
+    color: white;
+    font-size: 50px;
+}
+
+.buttons-div {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+video {
+    display: block;
+  
+  outline: none;
+  border: none;
+  box-shadow: none;
+  margin-top: -36.9%;
+  margin-left: 30.6%;
+  width: 37.7%;
+  height: 16%;
+  z-index: -1;
+}
+
+.background-image{
+    
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    z-index: 10;
+    margin-top: 8%;
+}
