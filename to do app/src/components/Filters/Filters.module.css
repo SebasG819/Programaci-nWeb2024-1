@@ -1,0 +1,39 @@
+.ulFlex {
+  display: flex;
+  justify-content: space-around;
+  margin: 3vh 0;
+}
+
+.inputLi {
+  display: inline-block;
+}
+
+.radioInput {
+  display: none;
+}
+
+.inputLabel {
+  background-color: var(--Blue); 
+  padding: 0.7vh 2vh;
+  border-radius: 50px;
+  transition: 0.25s;
+}
+
+.inputLabel:hover {
+  cursor: pointer;
+  background-color: rgba(29, 129, 211, 0.5); 
+}
+
+.inputLi input:checked + .inputLabel {
+  background-color: var(--Green);
+  color: var(--DarkBlue);
+}
+
+@media only screen and (max-width: 600px) {
+  .ulFlex {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -19%;
+    margin-right: -7.5%;
+  }
+}

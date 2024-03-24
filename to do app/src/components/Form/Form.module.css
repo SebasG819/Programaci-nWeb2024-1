@@ -1,0 +1,51 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem; 
+}
+
+.inputContainer {
+  font-size: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.priorityContainer {
+  width: 106%;
+  font-size: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; 
+}
+
+.inputContainer label,
+.priorityContainer label {
+font-size: 15px; 
+text-align: left; 
+}
+
+.taskInput {
+  font-size: medium;
+  padding: 0.5rem 1rem; 
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+}
+
+.selectInput {
+  font-size: medium;
+  padding: 0.5rem 1rem; 
+  border: none;
+  border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem; 
+    width: 87%;
+  }
+  
+}
