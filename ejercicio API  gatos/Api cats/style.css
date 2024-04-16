@@ -1,0 +1,131 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+  --background-image: url('https://wallpaperaccess.com/full/340434.png');
+  --purple-color: #8a4cfc;
+  --blue-color: #535bf2;
+  --darkblue-color: #1c154b;
+  
+  font-family: 'Poppins', sans-serif; /* Tipografía Poppins */
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Estilos para enlaces */
+
+a {
+  font-weight: 500;
+  color: var(--purple-color); /* Color morado */
+  font-family: 'Poppins', sans-serif; /* Tipografía Poppins */
+
+}
+
+a:hover {
+  color: var(--blue-color); /* Color azul */
+}
+
+/* Estilos para el cuerpo */
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: var(--background-image); /* Imagen de fondo */
+  background-color: #242424; /* Color de fondo de respaldo */
+}
+
+/* Estilos para el título */
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: var(--darkblue-color); /* Color morado */
+  font-family: 'Poppins', sans-serif; /* Tipografía Poppins */
+
+}
+
+/* Estilos para el contenedor principal de la aplicación */
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Estilos para el logo */
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em var(--purple-color)AA);
+}
+
+.logo.vanilla:hover {
+  filter: drop-shadow(0 0 2em var(--blue-color)AA);
+}
+
+/* Estilos para las tarjetas de información */
+
+.card {
+  padding: 2em;
+}
+
+/* Estilos para el enlace "Read the Docs" */
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Estilos para los botones */
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: var(--purple-color);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: var(--purple-color);
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}

@@ -1,0 +1,27 @@
+/* facts.module.css */
+
+.card {
+    max-width: 400px; /* Ancho máximo de la tarjeta */
+    margin: 0 auto; /* Centra la tarjeta horizontalmente */
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.6)); /* Fondo con efecto tornasol */
+    border: 1px solid #dee2e6; /* Borde */
+    border-radius: 8px; /* Borde redondeado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espacio en la parte inferior */
+    overflow: hidden; /* Evita que la imagen se desborde del contenedor */
+  }
+  
+  .cat_img {
+    max-width: 100%; /* La imagen no debe ser más ancha que el contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-radius: 8px; /* Borde redondeado */
+    margin-bottom: 20px; /* Espacio inferior */
+  }
+  
+  .cat_fact {
+    font-size: 18px; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+    font-family: 'Poppins', sans-serif; /* Tipografía Poppins */
+  }
+  

@@ -1,0 +1,22 @@
+/* button.module.css */
+
+.fetchBtn {
+    background-color: var(--purple-color); /* Morado */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .fetchBtn:hover {
+    background-color: var(--blue-color); /* Azul */
+  }
+  
+  .fetchBtn:disabled {
+    background-color: #ccc; /* Gris claro */
+    cursor: not-allowed;
+  }
+  
