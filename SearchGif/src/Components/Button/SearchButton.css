@@ -1,0 +1,21 @@
+.sec-button {
+    text-align: center; 
+    margin-top: 10%;
+  }
+  
+  .sec-button button {
+    padding: 10px 20px; 
+    background-color: #8c66ff; 
+    color: #fff;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+  }
+  
+  .sec-button button:hover {
+    background-color: #5c43a8; 
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
