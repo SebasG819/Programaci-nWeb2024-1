@@ -1,6 +1,0 @@
-export * from './Button/SearchButton'
-export * from './CardGif/CardGif'
-export * from './Form/Form'
-export * from './NavBar/NavBar'
-export * from './FavoriteCardGif/FavoriteCardGif'
-export * from './Loader/Loader'
